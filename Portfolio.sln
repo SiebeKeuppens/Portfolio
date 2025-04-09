@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortfolioBackend", "PortfolioBackend\PortfolioBackend.csproj", "{B399D538-94A2-416A-8833-B7F836892177}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B399D538-94A2-416A-8833-B7F836892177}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B399D538-94A2-416A-8833-B7F836892177}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B399D538-94A2-416A-8833-B7F836892177}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B399D538-94A2-416A-8833-B7F836892177}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #222;
+            color: #FFF;
+            background-image:
+                linear-gradient(to right, rgba(187, 190, 100, .1) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(187, 190, 100, .1) 1px, transparent 1px);
+            background-size: 40px 40px;
+            background-position: 5% 5%;
+            transition: background-size 0.2s ease, background-position 0.2s ease;
+            overflow-x: hidden; /* Prevent horizontal scrollbar */
+        }
+        .hero {
+            padding: 3% 0;
+            text-align: center;
+            border-radius: 15px;
+            background: rgba(192, 197, 193, .1);
+            backdrop-filter: blur(5px);
+            border: none;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            width: 95%;
+            margin: 5% auto 1%;
+            transform: translateZ(0); /* Important for parallax */
+            z-index: 2;
+        }
+        .section {
+            padding: 60px 0;
+            border-radius: 15px;
+            width: 95%;
+            margin: 0 auto 1%;
+            border: none;
+            transform: translateZ(0); /* Important for parallax */
+            z-index: 2;
+            position: relative;
+        }
+        #about {
+            background: rgba(192, 197, 193, .1);
+            backdrop-filter: blur(5px);
+            border: none;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px 20px;
+            font-family: 'Inter', sans-serif;
+            background: transparent;
+            color: #eee;
+            backdrop-filter: blur(7px);
+            -webkit-backdrop-filter: blur(7px);
+            border-radius: 10px;
+            transition: 0.3s;
+            width: 95%;
+            margin: 20px auto;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+            position: fixed; /* Make navbar fixed */
+            top: 0;
+            left: 2.5%;
+            z-index: 3;
+        }
+
+        nav p {
+            margin: 0;
+            cursor: pointer;
+            padding: 8px;
+            transition: color 0.2s ease;
+            color: #eee;
+        }
+
+        nav p:hover {
+            color: #BBBE64;
+        }
+
+        button {
+            color: #222;
+            background-color: #EAF0CE;
+            transition: background-color 0.5s ease;
+            border-radius: 5px;
+            font-family: 'Inter', sans-serif;
+            padding: 7px 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: rgba(187, 190, 100, 0.8); /* Solid background on hover */
+            border-color: rgba(187, 190, 100, 0.8);
+        }
+
+        button:active {
+            background-color: #BBBE64;
+        }
+        
+        .btn-outline-secondary {
+            outline-color: #BBBE64;
+        }
+
+        footer {
+            background: rgba(192, 197, 193, .8);
+            color: #eee;
+            padding: 20px 0;
+            text-align: center;
+            margin-top: auto;
+            transform: translateZ(0); /* Important for parallax */
+            z-index: 2;
+        }
+
+        .card {
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+            background-color: rgba(192, 197, 193, .2);
+            color: #EEE;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        #particles-js {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+        
+        #particles-js canvas {
+            pointer-events: none;
+        }
+        nav {
+            z-index: 10;
+        }
+        .hero, .section {
+            z-index: 2;
+        }
+
+    </style>
+</head>
+<body>
+<div id="particles-js"></div>
+<nav>
+    <p>Index</p>
+    <p>Projects</p>
+    <p>About</p>
+    <p>Contact</p>
+</nav>
+
+<section class="hero">
+    <div class="container">
+        <h1 class="display-4">Siebe's W.I.P. Portfolio</h1>
+        <p class="lead">A site to portray my programming experience and language knowledge. 
+            Here you will be able to find my projects such as this site and links to the code & live demo's</p>
+        <button href="#projects">View Projects</button>
+    </div>
+</section>
+
+<section id="projects" class="section">
+    <div class="container">
+        <h1 class="text-center mb-5">Featured Projects</h1>
+        <div class="row" id="projects-container">
+            <div class="text-center">Loading projects...</div>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="section">
+    <div class="container">
+        <h1 class="text-center mb-5">About Me</h1>
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+                <p class="lead text-center">I'm a passionate full-stack developer with experience in Angular and .NET technologies. This portfolio site is built using these technologies and hosted on my own hardware.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <div class="container">
+        <h1 class="text-center mb-5">Contact Me</h1>
+        <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Your Name">
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" placeholder="Your Email">
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="py-4">
+    <div class="container text-center">
+        <p>© 2025 My Portfolio. All rights reserved.</p>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<script>
+    // Fetch projects from API
+    document.addEventListener('DOMContentLoaded', function() {
+        fetch('/api/project')
+            .then(response => response.json())
+            .then(data => {
+                const projectsContainer = document.getElementById('projects-container');
+                projectsContainer.innerHTML = '';
+
+                data.forEach(project => {
+                    const projectCard = document.createElement('div');
+                    projectCard.className = 'col-md-4 mb-4';
+                    projectCard.innerHTML = `
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <h4 class="card-title">${project.title}</h4>
+                                        <p class="card-text">${project.description}</p>
+                                        <p><small>Technologies: ${project.technologiesUsed}</small></p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="${project.gitHubUrl}" class="btn btn-sm btn-outline-secondary" target="_blank">GitHub</a>
+                                        <a href="${project.liveDemoUrl}" class=" btn btn-sm btn-outline-secondary" target="_blank">Live Demo</a>
+                                    </div>
+                                </div>
+                            `;
+                    projectsContainer.appendChild(projectCard);
+                });
+            })
+            .catch(error => {
+                console.error('Error fetching projects:', error);
+                document.getElementById('projects-container').innerHTML = '<div class="col-12 text-center">Error loading projects</div>';
+            });
+    });
+
+    particlesJS('particles-js', {
+        particles: {
+            number: {
+                value: 80,
+                density: {
+                    enable: true,
+                    value_area: 800
+                }
+            },
+            color: {
+                value: '#BBBE64'
+            },
+            shape: {
+                type: 'circle',
+                stroke: {
+                    width: 0,
+                    color: '#000000'
+                },
+                polygon: {
+                    nb_sides: 5
+                },
+                image: {
+                    src: 'img/github.svg',
+                    width: 100,
+                    height: 100
+                }
+            },
+            opacity: {
+                value: 0.5,
+                random: false,
+                anim: {
+                    enable: false,
+                    speed: 1,
+                    opacity_min: 0.1,
+                    sync: false
+                }
+            },
+            size: {
+                value: 3,
+                random: true,
+                anim: {
+                    enable: false,
+                    speed: 40,
+                    size_min: 0.1,
+                    sync: false
+                }
+            },
+            line_linked: {
+                enable: true,
+                distance: 150,
+                color: '#BBBE64',
+                opacity: 0.4,
+                width: 1
+            },
+            move: {
+                enable: true,
+                speed: 6,
+                direction: 'none',
+                random: false,
+                straight: false,
+                out_mode: 'out',
+                attract: {
+                    enable: false,
+                    rotateX: 600,
+                    rotateY: 1200
+                }
+            }
+        },
+        interactivity: {
+            detect_on: 'canvas',
+            events: {
+                onhover: {
+                    enable: false,
+                    mode: 'grab'
+                },
+                onclick: {
+                    enable: false,
+                    mode: 'push'
+                },
+                resize: true
+            },
+            modes: {
+                grab: {
+                    distance: 140,
+                    line_linked: {
+                        opacity: 1
+                    }
+                },
+                bubble: {
+                    distance: 400,
+                    size: 40,
+                    duration: 2,
+                    opacity: 0.8,
+                    speed: 3
+                },
+                repulse: {
+                    distance: 200,
+                    duration: 0.4
+                },
+                push: {
+                    particles_nb: 4
+                },
+                remove: {
+                    particles_nb: 2
+                }
+            }
+        },
+        retina_detect: true
+    });
+</script>
+</body>
+</html>

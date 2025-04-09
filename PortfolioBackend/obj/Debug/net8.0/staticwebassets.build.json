@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "TL5JuqEXNP32SUWOmcWb2EIH7+CHfx9mAtgQdM1gGbo=",
+  "Source": "PortfolioBackend",
+  "BasePath": "_content/PortfolioBackend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

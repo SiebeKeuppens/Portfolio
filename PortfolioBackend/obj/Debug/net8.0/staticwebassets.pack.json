@@ -1,0 +1,85 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/favicons/android-chrome-192.png",
+      "PackagePath": "staticwebassets/assets/favicons/android-chrome-192.png"
+    },
+    {
+      "Id": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/favicons/android-chrome-512.png",
+      "PackagePath": "staticwebassets/assets/favicons/android-chrome-512.png"
+    },
+    {
+      "Id": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/favicons/apple-touch-icon.png",
+      "PackagePath": "staticwebassets/assets/favicons/apple-touch-icon.png"
+    },
+    {
+      "Id": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/favicons/browserconfig.xml",
+      "PackagePath": "staticwebassets/assets/favicons/browserconfig.xml"
+    },
+    {
+      "Id": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/favicons/favicon-128.png",
+      "PackagePath": "staticwebassets/assets/favicons/favicon-128.png"
+    },
+    {
+      "Id": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/favicons/favicon-16.png",
+      "PackagePath": "staticwebassets/assets/favicons/favicon-16.png"
+    },
+    {
+      "Id": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/favicons/favicon-256.png",
+      "PackagePath": "staticwebassets/assets/favicons/favicon-256.png"
+    },
+    {
+      "Id": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/favicons/favicon-32.png",
+      "PackagePath": "staticwebassets/assets/favicons/favicon-32.png"
+    },
+    {
+      "Id": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/favicons/favicon-48.png",
+      "PackagePath": "staticwebassets/assets/favicons/favicon-48.png"
+    },
+    {
+      "Id": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/favicons/favicon-96.png",
+      "PackagePath": "staticwebassets/assets/favicons/favicon-96.png"
+    },
+    {
+      "Id": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/favicons/favicon.ico",
+      "PackagePath": "staticwebassets/assets/favicons/favicon.ico"
+    },
+    {
+      "Id": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/favicons/favicon.svg",
+      "PackagePath": "staticwebassets/assets/favicons/favicon.svg"
+    },
+    {
+      "Id": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/favicons/manifest.json",
+      "PackagePath": "staticwebassets/assets/favicons/manifest.json"
+    },
+    {
+      "Id": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/favicons/mstile-150.png",
+      "PackagePath": "staticwebassets/assets/favicons/mstile-150.png"
+    },
+    {
+      "Id": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/images/hubpreview.png",
+      "PackagePath": "staticwebassets/assets/images/hubpreview.png"
+    },
+    {
+      "Id": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/images/portfolio.png",
+      "PackagePath": "staticwebassets/assets/images/portfolio.png"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.PortfolioBackend.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.PortfolioBackend.props",
+      "PackagePath": "build\\PortfolioBackend.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.PortfolioBackend.props",
+      "PackagePath": "buildMultiTargeting\\PortfolioBackend.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.PortfolioBackend.props",
+      "PackagePath": "buildTransitive\\PortfolioBackend.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

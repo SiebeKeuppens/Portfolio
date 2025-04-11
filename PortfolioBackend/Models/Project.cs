@@ -9,6 +9,6 @@ public class Project
     public string ImageUrl { get; set; } = string.Empty;
     public string GitHubUrl { get; set; } = string.Empty;
     public string LiveDemoUrl { get; set; } = string.Empty;
-    public DateTime CompletedDate { get; set; }
+    public string CompletedDate { get; set; }
     public bool IsFeatured { get; set; }
 }

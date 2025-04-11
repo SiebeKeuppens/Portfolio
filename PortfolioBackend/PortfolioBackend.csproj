@@ -22,6 +22,16 @@
 
     <ItemGroup>
       <Folder Include="Services\" />
+      <Folder Include="wwwroot\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="wwwroot\assets\images\hubpreview.png" />
+      <None Include="wwwroot\assets\images\portfolio.png" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="favicons\manifest.json" />
     </ItemGroup>
 
 </Project>

@@ -22,12 +22,12 @@
 
     <ItemGroup>
       <Folder Include="Services\" />
-      <Folder Include="wwwroot\" />
     </ItemGroup>
 
     <ItemGroup>
       <None Include="wwwroot\assets\images\hubpreview.png" />
       <None Include="wwwroot\assets\images\portfolio.png" />
+      <None Include="wwwroot\site.css" />
     </ItemGroup>
 
     <ItemGroup>

@@ -1,0 +1,198 @@
+/* General body styles */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #222;
+    color: #EEE;
+    background-image: linear-gradient(to right, rgba(187, 190, 100, .1) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(187, 190, 100, .1) 1px, transparent 1px);
+    background-size: 40px 40px;
+    background-position: 5% 5%;
+    transition: background-size 0.2s ease, background-position 0.2s ease;
+    overflow-x: hidden; /* Prevent horizontal scrollbar */
+}
+
+/* Style for the welcome section */
+#welcome {
+    padding: 3% 0;
+    text-align: center;
+    border-radius: 15px;
+    background: rgba(192, 197, 193, .1);
+    backdrop-filter: blur(5px);
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    margin: 100px auto 1%;
+    transform: translateZ(0); /* Important for parallax */
+    z-index: 2;
+}
+
+/* Style for projects section */
+#projects {
+    width: 95%;
+    padding: 60px 0;
+    border-radius: 15px;
+    margin: 0 auto 1%;
+    border: none;
+    transform: translateZ(0); /* Important for parallax */
+    z-index: 2;
+    position: relative;
+}
+
+/* Style for the about section */
+#about {
+    width: 90%;
+    border-radius: 15px;
+    background: rgba(192, 197, 193, .1);
+    backdrop-filter: blur(5px);
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    margin: 2% auto;
+}
+
+/* Style for contact section */
+#contact {
+    width: 80%;
+    background: rgba(187, 190, 100, .1);
+    backdrop-filter: blur(5px);
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    margin: 2% auto;
+    padding: 10px;
+}
+
+/* Navigation bar styles */
+nav {
+    margin: 1% 2%;
+    width: 96%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+    font-family: 'Inter', sans-serif;
+    background: transparent;
+    color: #eee;
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    border-radius: 15px;
+    transition: 0.3s;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    z-index: 10;
+}
+
+nav p {
+    margin: 0;
+    cursor: pointer;
+    padding: 8px;
+    transition: color 0.2s ease;
+    color: #eee;
+}
+
+nav p:hover {
+    color: #BBBE64;
+}
+
+/* Button styles */
+button {
+    color: #222;
+    background-color: #EAF0CE;
+    transition: background-color 0.5s ease;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    padding: 7px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(187, 190, 100, 0.8); /* Solid background on hover */
+    border-color: rgba(187, 190, 100, 0.8);
+}
+
+button:active {
+    background-color: #BBBE64;
+}
+
+/* Footer styles */
+footer {
+    width: 100vw;
+    background: rgba(234, 240, 206, .1);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    color: #eee;
+    text-align: center;
+    margin: auto auto 0;
+    transform: translateZ(0); /* Important for parallax */
+    z-index: 2;
+}
+
+/* Featured Checkbox (Star) */
+input[type="checkbox"]#featured + .form-check-label {
+    font-size: 36px; /* Larger star size */
+    color: #666; /* Default color for the star */
+    cursor: pointer;
+    transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+}
+
+input[type="checkbox"]#featured:checked + .form-check-label {
+    color: #FFD700; /* Bright golden color when selected */
+    text-shadow: 0 0 10px #FFD700, 0 0 20px #FFD700, 0 0 30px #FFEA00; /* Brighter, glowing effect */
+}
+
+/* Checkbox Alignment */
+#completedDate + .form-check {
+    height: 100%; /* Match checkbox height to input field */
+    display: flex;
+    align-items: center;
+}
+
+/* Card deck and card styles */
+.card-deck {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    min-width: 25%;
+    border: none;
+    margin: 0 50px 50px 50px;
+    flex: 1 0 0;
+    background-color: rgba(192, 197, 193, .2);
+    color: #EEE;
+}
+
+.card img {
+    max-width: fit-content;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Particles.js and other background styles */
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#particles-js canvas {
+    pointer-events: none;
+}
+
+.hero,
+.section {
+    z-index: 2;
+}

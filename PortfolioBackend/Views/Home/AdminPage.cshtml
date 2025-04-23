@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - Add Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="site.css">
+</head>
+<body>
+<nav>
+    <p href="/">Back to Home</p>
+</nav>
+<section class="form-group section hero" id="welcome">
+    <h1 class="text-center mb-5">Add a New Project</h1>
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-md-10">
+            <form id="projectForm" method="post" action="/api/projects/AddProject" onsubmit="return validatePassword(event)">
+                <!-- Project Title -->
+                <div class="mb-4 d-flex align-items-center">
+                    <div class="flex-grow-1">
+                        <label for="title" class="form-label">Project Title</label>
+                        <div class="d-flex align-items-center">
+                            <div class="form-check me-2">
+                                <input class="form-check-input d-none" type="checkbox" id="featured" name="featured">
+                                <label for="featured" class="form-check-label" title="Mark as Featured Project">
+                                    ★
+                                </label>
+                            </div>
+                            <input type="text" class="form-control" id="title" name="title"
+                                   placeholder="Enter the project title" required>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Description -->
+                <div class="mb-4">
+                    <label for="description" class="form-label">Project Description</label>
+                    <textarea class="form-control" id="description" name="description" rows="4" placeholder="Enter a detailed description of the project" required></textarea>
+                </div>
+
+                <div class="row">
+                    <!-- Image URL -->
+                    <div class="col-md-6 mb-4">
+                        <label for="imageUrl" class="form-label">Image URL</label>
+                        <input type="url" class="form-control" id="imageUrl" name="imageUrl" placeholder="Paste the image URL" required>
+                    </div>
+                    
+                    <!-- GitHub URL -->
+                    <div class="col-md-6 mb-4">
+                        <label for="gitHubUrl" class="form-label">GitHub URL</label>
+                        <input type="url" class="form-control" id="gitHubUrl" name="gitHubUrl" placeholder="Paste the GitHub URL" required>
+                    </div>
+                    
+                    <!-- Demo URL -->
+                    <div class="col-md-6 mb-4">
+                        <label for="demoUrl" class="form-label">Demo URL</label>
+                        <input type="url" class="form-control" id="demoUrl" name="demoUrl" placeholder="Paste the Demo URL" required>
+                    </div>
+                    
+                    <!-- Completed Date with Checkbox -->
+                    <div class="col-md-6 mb-4">
+                        <label for="completedDate" class="form-label">Completed Date</label>
+                        <div class="d-flex align-items-center">
+                            <div class="form-check d-flex align-items-center me-3">
+                                <input class="form-check-input" type="checkbox" id="IsCompletedBox" onchange="toggleCompletedDate()" checked>
+                            </div>
+                            <input type="date" class="form-control" id="completedDate" name="completedDate" required>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Technologies Used -->
+                <div class="mb-4">
+                    <label for="technologiesUsed" class="form-label">Technologies Used</label>
+                    <input type="text" class="form-control" id="technologiesUsed" name="technologiesUsed" placeholder="E.g., C#, .NET, Angular" required>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-primary px-5">Add Project</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer class="py-3 bg-dark">
+    <div class="text-center text-light">
+        <p>© 2025 Siebe's Portfolio. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    function validatePassword(event) {
+        event.preventDefault();
+        const password = prompt("Please enter admin password:");
+
+        if (password === "admin123") { // Replace with your actual password
+            document.getElementById('projectForm').submit();
+            return true;
+        } else {
+            alert("Incorrect password!");
+            return false;
+        }
+    }
+
+    function toggleCompletedDate() {
+        const completedDateInput = document.getElementById('completedDate');
+        const completedCheckbox = document.getElementById('IsCompletedBox');
+
+        completedDateInput.readOnly = !completedCheckbox.checked;
+    }
+</script>
+</body>
+</html>

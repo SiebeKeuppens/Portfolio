@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5qfMW6UpDlicmAqVwm7M8npp0z5PTqyibPkEWPiW3SU=",
+  "Hash": "3MoDfD2S4dF3Qyrij6CK+MCkiV9OEgJxJODvmzJw/O4=",
   "Source": "PortfolioBackend",
   "BasePath": "_content/PortfolioBackend",
   "Mode": "Default",
@@ -22,15 +22,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/",
       "BasePath": "_content/PortfolioBackend",
-      "RelativePath": "assets/favicons/android-chrome-192.png",
+      "RelativePath": "assets/favicons/android-chrome-192#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "eqlla961l1",
+      "Integrity": "uvB+J63V2MqSLc6d/3d9qxRw/qyqKAUn44dxJvMdQHs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/favicons/android-chrome-192.png"
@@ -41,15 +43,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/",
       "BasePath": "_content/PortfolioBackend",
-      "RelativePath": "assets/favicons/android-chrome-512.png",
+      "RelativePath": "assets/favicons/android-chrome-512#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "azwqhbuvsn",
+      "Integrity": "doZBH1/iPpRS/EX0tfzONCRTAVSMb21emtBfHveaaoE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/favicons/android-chrome-512.png"
@@ -60,15 +64,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/",
       "BasePath": "_content/PortfolioBackend",
-      "RelativePath": "assets/favicons/apple-touch-icon.png",
+      "RelativePath": "assets/favicons/apple-touch-icon#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "ykopnkspnu",
+      "Integrity": "so/dDD7BmBU5aehlhyk+yaMBVR25Y/U8miZpeB5hS8A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/favicons/apple-touch-icon.png"
@@ -79,15 +85,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/",
       "BasePath": "_content/PortfolioBackend",
-      "RelativePath": "assets/favicons/browserconfig.xml",
+      "RelativePath": "assets/favicons/browserconfig#[.{fingerprint}]?.xml",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "680m9tm2ba",
+      "Integrity": "pscFRnYjcD8Sl8xUl3N8tAjBatgmaAR+zdOEuAPa2GE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/favicons/browserconfig.xml"
@@ -98,15 +106,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/",
       "BasePath": "_content/PortfolioBackend",
-      "RelativePath": "assets/favicons/favicon-128.png",
+      "RelativePath": "assets/favicons/favicon-128#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "93tdkox3on",
+      "Integrity": "hZi5U9q3bwN75CrL6OVmXWIVItYSYy2Bffb1eg8e7oo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/favicons/favicon-128.png"
@@ -117,15 +127,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/",
       "BasePath": "_content/PortfolioBackend",
-      "RelativePath": "assets/favicons/favicon-16.png",
+      "RelativePath": "assets/favicons/favicon-16#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "h693jnr7vg",
+      "Integrity": "x48YvUW+QZflCNB4hrCS2/mGnVKcoda7Qe5aQAuOvrE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/favicons/favicon-16.png"
@@ -136,15 +148,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/",
       "BasePath": "_content/PortfolioBackend",
-      "RelativePath": "assets/favicons/favicon-256.png",
+      "RelativePath": "assets/favicons/favicon-256#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "0dfjetw7zm",
+      "Integrity": "fAl2c564WhTsfnXuuME/zKzCCwLKMjj4Eu7MCdtklCc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/favicons/favicon-256.png"
@@ -155,15 +169,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/",
       "BasePath": "_content/PortfolioBackend",
-      "RelativePath": "assets/favicons/favicon-32.png",
+      "RelativePath": "assets/favicons/favicon-32#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "tk0wtcnn6g",
+      "Integrity": "ExjKgDtBo2Ga4dSxjvGWo0oXPmQgbCnhSaKD1611aAw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/favicons/favicon-32.png"
@@ -174,15 +190,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/",
       "BasePath": "_content/PortfolioBackend",
-      "RelativePath": "assets/favicons/favicon-48.png",
+      "RelativePath": "assets/favicons/favicon-48#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "kaoxmbjf4o",
+      "Integrity": "xDRH53y8LUe8xf/s9YSlJcD+L55eJtpx/5RmjpRpTJQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/favicons/favicon-48.png"
@@ -193,15 +211,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/",
       "BasePath": "_content/PortfolioBackend",
-      "RelativePath": "assets/favicons/favicon-96.png",
+      "RelativePath": "assets/favicons/favicon-96#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "7zjak0j799",
+      "Integrity": "XfhY7Rown+j2atk4Sh5pPdL3HGNJdsxApOuadB7SPGE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/favicons/favicon-96.png"
@@ -212,15 +232,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/",
       "BasePath": "_content/PortfolioBackend",
-      "RelativePath": "assets/favicons/favicon.ico",
+      "RelativePath": "assets/favicons/favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "b982tz40jc",
+      "Integrity": "sYBTLycxyXOE0pfWtXVzlVip3DfLbzjG3ERrqcAl65k=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/favicons/favicon.ico"
@@ -231,15 +253,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/",
       "BasePath": "_content/PortfolioBackend",
-      "RelativePath": "assets/favicons/favicon.svg",
+      "RelativePath": "assets/favicons/favicon#[.{fingerprint}]?.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "v1ep4enev7",
+      "Integrity": "nYBFXANyWxv/tfdRUVaCRLHJXOrOJ1ep55TtPv3qkpU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/favicons/favicon.svg"
@@ -250,15 +274,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/",
       "BasePath": "_content/PortfolioBackend",
-      "RelativePath": "assets/favicons/manifest.json",
+      "RelativePath": "assets/favicons/manifest#[.{fingerprint}]?.json",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "itrfl90pfe",
+      "Integrity": "aoxvUQvbRQvqmoaZhisrZSjdGunQCecEIlrDxi6FTHs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/favicons/manifest.json"
@@ -269,15 +295,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/",
       "BasePath": "_content/PortfolioBackend",
-      "RelativePath": "assets/favicons/mstile-150.png",
+      "RelativePath": "assets/favicons/mstile-150#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "urgjmf3429",
+      "Integrity": "VoJC3m2zU0DKi1wnV0Lk5WDQGbUpdbq7TyxQLXBvhtg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/favicons/mstile-150.png"
@@ -288,15 +316,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/",
       "BasePath": "_content/PortfolioBackend",
-      "RelativePath": "assets/images/hubpreview.png",
+      "RelativePath": "assets/images/hubpreview#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "iuhylg866f",
+      "Integrity": "JvzCRi6CZD3EGMKvvej08CrbqTT8xS+yV4rb9iAM+KY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/images/hubpreview.png"
@@ -307,18 +337,1437 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/",
       "BasePath": "_content/PortfolioBackend",
-      "RelativePath": "assets/images/portfolio.png",
+      "RelativePath": "assets/images/portfolio#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "fr4gfcnfad",
+      "Integrity": "G8tpRFGYpMYTphJyqAoJeq7RfZD38dsct9h+Lg8Vh+0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/images/portfolio.png"
+    },
+    {
+      "Identity": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/site.css",
+      "SourceId": "PortfolioBackend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/",
+      "BasePath": "_content/PortfolioBackend",
+      "RelativePath": "site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jaok5ojx9i",
+      "Integrity": "+6zTg7tm8AAAzo8KNPA/uv8R6uMUmcqd0Oz7gbQ1gjo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/site.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "assets/favicons/android-chrome-192.eqlla961l1.png",
+      "AssetFile": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/favicons/android-chrome-192.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4620"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uvB+J63V2MqSLc6d/3d9qxRw/qyqKAUn44dxJvMdQHs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 12:07:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eqlla961l1"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/favicons/android-chrome-192.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uvB+J63V2MqSLc6d/3d9qxRw/qyqKAUn44dxJvMdQHs="
+        }
+      ]
+    },
+    {
+      "Route": "assets/favicons/android-chrome-192.png",
+      "AssetFile": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/favicons/android-chrome-192.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4620"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uvB+J63V2MqSLc6d/3d9qxRw/qyqKAUn44dxJvMdQHs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 12:07:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uvB+J63V2MqSLc6d/3d9qxRw/qyqKAUn44dxJvMdQHs="
+        }
+      ]
+    },
+    {
+      "Route": "assets/favicons/android-chrome-512.azwqhbuvsn.png",
+      "AssetFile": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/favicons/android-chrome-512.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16640"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"doZBH1/iPpRS/EX0tfzONCRTAVSMb21emtBfHveaaoE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 12:07:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "azwqhbuvsn"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/favicons/android-chrome-512.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-doZBH1/iPpRS/EX0tfzONCRTAVSMb21emtBfHveaaoE="
+        }
+      ]
+    },
+    {
+      "Route": "assets/favicons/android-chrome-512.png",
+      "AssetFile": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/favicons/android-chrome-512.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16640"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"doZBH1/iPpRS/EX0tfzONCRTAVSMb21emtBfHveaaoE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 12:07:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-doZBH1/iPpRS/EX0tfzONCRTAVSMb21emtBfHveaaoE="
+        }
+      ]
+    },
+    {
+      "Route": "assets/favicons/apple-touch-icon.png",
+      "AssetFile": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/favicons/apple-touch-icon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4087"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"so/dDD7BmBU5aehlhyk+yaMBVR25Y/U8miZpeB5hS8A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 12:07:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-so/dDD7BmBU5aehlhyk+yaMBVR25Y/U8miZpeB5hS8A="
+        }
+      ]
+    },
+    {
+      "Route": "assets/favicons/apple-touch-icon.ykopnkspnu.png",
+      "AssetFile": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/favicons/apple-touch-icon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4087"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"so/dDD7BmBU5aehlhyk+yaMBVR25Y/U8miZpeB5hS8A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 12:07:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ykopnkspnu"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/favicons/apple-touch-icon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-so/dDD7BmBU5aehlhyk+yaMBVR25Y/U8miZpeB5hS8A="
+        }
+      ]
+    },
+    {
+      "Route": "assets/favicons/browserconfig.680m9tm2ba.xml",
+      "AssetFile": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/favicons/browserconfig.xml",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "241"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pscFRnYjcD8Sl8xUl3N8tAjBatgmaAR+zdOEuAPa2GE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 12:07:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "680m9tm2ba"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/favicons/browserconfig.xml"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pscFRnYjcD8Sl8xUl3N8tAjBatgmaAR+zdOEuAPa2GE="
+        }
+      ]
+    },
+    {
+      "Route": "assets/favicons/browserconfig.xml",
+      "AssetFile": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/favicons/browserconfig.xml",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "241"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pscFRnYjcD8Sl8xUl3N8tAjBatgmaAR+zdOEuAPa2GE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 12:07:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pscFRnYjcD8Sl8xUl3N8tAjBatgmaAR+zdOEuAPa2GE="
+        }
+      ]
+    },
+    {
+      "Route": "assets/favicons/favicon-128.93tdkox3on.png",
+      "AssetFile": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/favicons/favicon-128.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3089"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hZi5U9q3bwN75CrL6OVmXWIVItYSYy2Bffb1eg8e7oo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 12:07:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "93tdkox3on"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/favicons/favicon-128.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hZi5U9q3bwN75CrL6OVmXWIVItYSYy2Bffb1eg8e7oo="
+        }
+      ]
+    },
+    {
+      "Route": "assets/favicons/favicon-128.png",
+      "AssetFile": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/favicons/favicon-128.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3089"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hZi5U9q3bwN75CrL6OVmXWIVItYSYy2Bffb1eg8e7oo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 12:07:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hZi5U9q3bwN75CrL6OVmXWIVItYSYy2Bffb1eg8e7oo="
+        }
+      ]
+    },
+    {
+      "Route": "assets/favicons/favicon-16.h693jnr7vg.png",
+      "AssetFile": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/favicons/favicon-16.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "408"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"x48YvUW+QZflCNB4hrCS2/mGnVKcoda7Qe5aQAuOvrE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 12:07:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h693jnr7vg"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/favicons/favicon-16.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-x48YvUW+QZflCNB4hrCS2/mGnVKcoda7Qe5aQAuOvrE="
+        }
+      ]
+    },
+    {
+      "Route": "assets/favicons/favicon-16.png",
+      "AssetFile": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/favicons/favicon-16.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "408"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"x48YvUW+QZflCNB4hrCS2/mGnVKcoda7Qe5aQAuOvrE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 12:07:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-x48YvUW+QZflCNB4hrCS2/mGnVKcoda7Qe5aQAuOvrE="
+        }
+      ]
+    },
+    {
+      "Route": "assets/favicons/favicon-256.0dfjetw7zm.png",
+      "AssetFile": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/favicons/favicon-256.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6906"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fAl2c564WhTsfnXuuME/zKzCCwLKMjj4Eu7MCdtklCc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 12:07:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0dfjetw7zm"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/favicons/favicon-256.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fAl2c564WhTsfnXuuME/zKzCCwLKMjj4Eu7MCdtklCc="
+        }
+      ]
+    },
+    {
+      "Route": "assets/favicons/favicon-256.png",
+      "AssetFile": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/favicons/favicon-256.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6906"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fAl2c564WhTsfnXuuME/zKzCCwLKMjj4Eu7MCdtklCc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 12:07:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fAl2c564WhTsfnXuuME/zKzCCwLKMjj4Eu7MCdtklCc="
+        }
+      ]
+    },
+    {
+      "Route": "assets/favicons/favicon-32.png",
+      "AssetFile": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/favicons/favicon-32.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "788"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ExjKgDtBo2Ga4dSxjvGWo0oXPmQgbCnhSaKD1611aAw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 12:07:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ExjKgDtBo2Ga4dSxjvGWo0oXPmQgbCnhSaKD1611aAw="
+        }
+      ]
+    },
+    {
+      "Route": "assets/favicons/favicon-32.tk0wtcnn6g.png",
+      "AssetFile": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/favicons/favicon-32.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "788"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ExjKgDtBo2Ga4dSxjvGWo0oXPmQgbCnhSaKD1611aAw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 12:07:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tk0wtcnn6g"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/favicons/favicon-32.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ExjKgDtBo2Ga4dSxjvGWo0oXPmQgbCnhSaKD1611aAw="
+        }
+      ]
+    },
+    {
+      "Route": "assets/favicons/favicon-48.kaoxmbjf4o.png",
+      "AssetFile": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/favicons/favicon-48.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "916"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xDRH53y8LUe8xf/s9YSlJcD+L55eJtpx/5RmjpRpTJQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 12:07:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kaoxmbjf4o"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/favicons/favicon-48.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xDRH53y8LUe8xf/s9YSlJcD+L55eJtpx/5RmjpRpTJQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/favicons/favicon-48.png",
+      "AssetFile": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/favicons/favicon-48.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "916"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xDRH53y8LUe8xf/s9YSlJcD+L55eJtpx/5RmjpRpTJQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 12:07:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xDRH53y8LUe8xf/s9YSlJcD+L55eJtpx/5RmjpRpTJQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/favicons/favicon-96.7zjak0j799.png",
+      "AssetFile": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/favicons/favicon-96.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2055"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XfhY7Rown+j2atk4Sh5pPdL3HGNJdsxApOuadB7SPGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 12:07:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7zjak0j799"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/favicons/favicon-96.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XfhY7Rown+j2atk4Sh5pPdL3HGNJdsxApOuadB7SPGE="
+        }
+      ]
+    },
+    {
+      "Route": "assets/favicons/favicon-96.png",
+      "AssetFile": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/favicons/favicon-96.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2055"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XfhY7Rown+j2atk4Sh5pPdL3HGNJdsxApOuadB7SPGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 12:07:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XfhY7Rown+j2atk4Sh5pPdL3HGNJdsxApOuadB7SPGE="
+        }
+      ]
+    },
+    {
+      "Route": "assets/favicons/favicon.b982tz40jc.ico",
+      "AssetFile": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/favicons/favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2166"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sYBTLycxyXOE0pfWtXVzlVip3DfLbzjG3ERrqcAl65k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 12:07:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b982tz40jc"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/favicons/favicon.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sYBTLycxyXOE0pfWtXVzlVip3DfLbzjG3ERrqcAl65k="
+        }
+      ]
+    },
+    {
+      "Route": "assets/favicons/favicon.ico",
+      "AssetFile": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/favicons/favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2166"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sYBTLycxyXOE0pfWtXVzlVip3DfLbzjG3ERrqcAl65k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 12:07:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sYBTLycxyXOE0pfWtXVzlVip3DfLbzjG3ERrqcAl65k="
+        }
+      ]
+    },
+    {
+      "Route": "assets/favicons/favicon.svg",
+      "AssetFile": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/favicons/favicon.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "555"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nYBFXANyWxv/tfdRUVaCRLHJXOrOJ1ep55TtPv3qkpU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 12:07:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nYBFXANyWxv/tfdRUVaCRLHJXOrOJ1ep55TtPv3qkpU="
+        }
+      ]
+    },
+    {
+      "Route": "assets/favicons/favicon.v1ep4enev7.svg",
+      "AssetFile": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/favicons/favicon.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "555"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nYBFXANyWxv/tfdRUVaCRLHJXOrOJ1ep55TtPv3qkpU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 12:07:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v1ep4enev7"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/favicons/favicon.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nYBFXANyWxv/tfdRUVaCRLHJXOrOJ1ep55TtPv3qkpU="
+        }
+      ]
+    },
+    {
+      "Route": "assets/favicons/manifest.itrfl90pfe.json",
+      "AssetFile": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/favicons/manifest.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "417"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aoxvUQvbRQvqmoaZhisrZSjdGunQCecEIlrDxi6FTHs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 12:07:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "itrfl90pfe"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/favicons/manifest.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aoxvUQvbRQvqmoaZhisrZSjdGunQCecEIlrDxi6FTHs="
+        }
+      ]
+    },
+    {
+      "Route": "assets/favicons/manifest.json",
+      "AssetFile": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/favicons/manifest.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "417"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aoxvUQvbRQvqmoaZhisrZSjdGunQCecEIlrDxi6FTHs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 12:07:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aoxvUQvbRQvqmoaZhisrZSjdGunQCecEIlrDxi6FTHs="
+        }
+      ]
+    },
+    {
+      "Route": "assets/favicons/mstile-150.png",
+      "AssetFile": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/favicons/mstile-150.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3414"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VoJC3m2zU0DKi1wnV0Lk5WDQGbUpdbq7TyxQLXBvhtg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 12:07:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VoJC3m2zU0DKi1wnV0Lk5WDQGbUpdbq7TyxQLXBvhtg="
+        }
+      ]
+    },
+    {
+      "Route": "assets/favicons/mstile-150.urgjmf3429.png",
+      "AssetFile": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/favicons/mstile-150.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3414"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VoJC3m2zU0DKi1wnV0Lk5WDQGbUpdbq7TyxQLXBvhtg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 12:07:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "urgjmf3429"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/favicons/mstile-150.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VoJC3m2zU0DKi1wnV0Lk5WDQGbUpdbq7TyxQLXBvhtg="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/hubpreview.iuhylg866f.png",
+      "AssetFile": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/images/hubpreview.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2878383"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JvzCRi6CZD3EGMKvvej08CrbqTT8xS+yV4rb9iAM+KY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 08:47:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iuhylg866f"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/images/hubpreview.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JvzCRi6CZD3EGMKvvej08CrbqTT8xS+yV4rb9iAM+KY="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/hubpreview.png",
+      "AssetFile": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/images/hubpreview.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2878383"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JvzCRi6CZD3EGMKvvej08CrbqTT8xS+yV4rb9iAM+KY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 08:47:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JvzCRi6CZD3EGMKvvej08CrbqTT8xS+yV4rb9iAM+KY="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/portfolio.fr4gfcnfad.png",
+      "AssetFile": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/images/portfolio.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "440066"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G8tpRFGYpMYTphJyqAoJeq7RfZD38dsct9h+Lg8Vh+0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 08:53:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fr4gfcnfad"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/images/portfolio.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-G8tpRFGYpMYTphJyqAoJeq7RfZD38dsct9h+Lg8Vh+0="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/portfolio.png",
+      "AssetFile": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/assets/images/portfolio.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "440066"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G8tpRFGYpMYTphJyqAoJeq7RfZD38dsct9h+Lg8Vh+0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 08:53:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-G8tpRFGYpMYTphJyqAoJeq7RfZD38dsct9h+Lg8Vh+0="
+        }
+      ]
+    },
+    {
+      "Route": "site.css",
+      "AssetFile": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4514"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+6zTg7tm8AAAzo8KNPA/uv8R6uMUmcqd0Oz7gbQ1gjo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Apr 2025 13:57:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+6zTg7tm8AAAzo8KNPA/uv8R6uMUmcqd0Oz7gbQ1gjo="
+        }
+      ]
+    },
+    {
+      "Route": "site.jaok5ojx9i.css",
+      "AssetFile": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4514"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+6zTg7tm8AAAzo8KNPA/uv8R6uMUmcqd0Oz7gbQ1gjo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Apr 2025 13:57:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jaok5ojx9i"
+        },
+        {
+          "Name": "label",
+          "Value": "site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+6zTg7tm8AAAzo8KNPA/uv8R6uMUmcqd0Oz7gbQ1gjo="
+        }
+      ]
     }
   ]
 }

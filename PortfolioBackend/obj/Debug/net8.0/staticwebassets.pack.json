@@ -65,6 +65,14 @@
       "PackagePath": "staticwebassets/assets/images/portfolio.png"
     },
     {
+      "Id": "/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/wwwroot/site.css",
+      "PackagePath": "staticwebassets/site.css"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.PortfolioBackend.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
       "Id": "obj/Debug/net8.0/staticwebassets/msbuild.PortfolioBackend.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

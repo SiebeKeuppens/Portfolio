@@ -136,3 +136,6 @@
 /Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/obj/Debug/net8.0/PortfolioBackend.RazorAssemblyInfo.cs
 /Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/obj/Debug/net8.0/PortfolioBackend.sourcelink.json
 /Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/bin/Debug/net8.0/PortfolioBackend.staticwebassets.runtime.json
+/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/bin/Debug/net8.0/PortfolioBackend.staticwebassets.endpoints.json
+/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/obj/Debug/net8.0/staticwebassets.build.endpoints.json
+/Users/siebe/Documents/Coding Projects/Portfolio/Portfolio/PortfolioBackend/obj/Debug/net8.0/staticwebassets/msbuild.PortfolioBackend.Microsoft.AspNetCore.StaticWebAssetEndpoints.props

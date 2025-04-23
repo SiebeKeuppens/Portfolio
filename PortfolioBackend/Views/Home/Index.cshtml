@@ -6,6 +6,8 @@
     <title>Siebe's Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="site.css">
 
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="48x48" href="assets/favicons/favicon-48.png" />
@@ -14,178 +16,6 @@
     <link rel="manifest" href="assets/favicons/manifest.json">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-            margin: 0;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-            background-color: #222;
-            color: #EEE;
-            background-image: linear-gradient(to right, rgba(187, 190, 100, .1) 1px, transparent 1px),
-            linear-gradient(to bottom, rgba(187, 190, 100, .1) 1px, transparent 1px);
-            background-size: 40px 40px;
-            background-position: 5% 5%;
-            transition: background-size 0.2s ease, background-position 0.2s ease;
-            overflow-x: hidden; /* Prevent horizontal scrollbar */
-        }
-
-        #welcome {
-            padding: 3% 0;
-            text-align: center;
-            border-radius: 15px;
-            background: rgba(192, 197, 193, .1);
-            backdrop-filter: blur(5px);
-            border: none;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-            width: 90%;
-            margin: 100px auto 1%;
-            transform: translateZ(0); /* Important for parallax */
-            z-index: 2;
-        }
-
-        #projects {
-            width: 95%;
-            padding: 60px 0;
-            border-radius: 15px;
-            margin: 0 auto 1%;
-            border: none;
-            transform: translateZ(0); /* Important for parallax */
-            z-index: 2;
-            position: relative;
-        }
-
-        #about {
-            width: 90%;
-            border-radius: 15px;
-            background: rgba(192, 197, 193, .1);
-            backdrop-filter: blur(5px);
-            border: none;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-            padding: 5px;
-            margin:  2% auto;
-        }
-        
-        #contact {
-            width: 80%;
-            background: rgba(187, 190, 100, .1);
-            backdrop-filter: blur(5px);
-            border: none;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-            border-radius: 15px;
-            margin: 2% auto;
-            padding: 10px;
-            
-        }
-
-        nav {
-            margin: 1% 2%;
-            width: 96%;
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            padding: 10px 20px;
-            font-family: 'Inter', sans-serif;
-            background: transparent;
-            color: #eee;
-            backdrop-filter: blur(7px);
-            -webkit-backdrop-filter: blur(7px);
-            border-radius: 15px;
-            transition: 0.3s;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
-            position: fixed;
-            z-index: 10;
-        }
-
-        nav p {
-            margin: 0;
-            cursor: pointer;
-            padding: 8px;
-            transition: color 0.2s ease;
-            color: #eee;
-        }
-
-        nav p:hover {
-            color: #BBBE64;
-        }
-
-        button {
-            color: #222;
-            background-color: #EAF0CE;
-            transition: background-color 0.5s ease;
-            border-radius: 5px;
-            font-family: 'Inter', sans-serif;
-            padding: 7px 10px;
-            border: none;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background-color: rgba(187, 190, 100, 0.8); /* Solid background on hover */
-            border-color: rgba(187, 190, 100, 0.8);
-        }
-
-        button:active {
-            background-color: #BBBE64;
-        }
-
-        footer {
-            width: 100vw;
-            background: rgba(234, 240, 206, .1);
-            backdrop-filter: blur(7px);
-            -webkit-backdrop-filter: blur(7px);
-            color: #eee;
-            text-align: center;
-            margin: auto auto 0;
-            transform: translateZ(0); /* Important for parallax */
-            z-index: 2;
-        }
-
-        .card-deck {
-            display: flex;
-            flex-wrap: wrap;
-        }
-
-        .card {
-            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-            min-width: 25%;
-            margin: 0 50px 50px 50px;
-            flex: 1 0 0;
-            background-color: rgba(192, 197, 193, .2);
-            color: #EEE;
-        }
-        
-        .card img {
-            max-width: fit-content;
-        }
-
-        .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        #particles-js {
-            position: fixed;
-            width: 100%;
-            height: 100%;
-            top: 0;
-            left: 0;
-            z-index: -1;
-        }
-
-        #particles-js canvas {
-            pointer-events: none;
-        }
-        
-        .hero, .section {
-            z-index: 2;
-        }
-        
-
-    </style>
 </head>
 
 <!--TODO: ADD Languages/Frameworks/Tools Section-->
@@ -200,6 +30,7 @@
     <p>Projects</p>
     <p>About</p>
     <p>Contact</p>
+    <p id="adminLink" style="display: none;">Admin</p>
 </nav>
 
 <section id="welcome" class="hero">
@@ -262,6 +93,23 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 <script>
+    // Admin panel access
+    let keys = [];
+    const secretCode = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
+
+    document.addEventListener('keydown', (e) => {
+        keys.push(e.key);
+        keys.splice(-secretCode.length - 1, keys.length - secretCode.length);
+
+        if (keys.join('') === secretCode.join('')) {
+            const adminLink = document.getElementById('adminLink');
+            adminLink.style.display = 'block';
+            adminLink.addEventListener('click', () => {
+                window.location.href = '/AdminPage';
+            });
+        }
+    });
+
     // Fetch projects from API
     document.addEventListener('DOMContentLoaded', function () {
         fetch('/api/project')

@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using PortfolioBackend.Data;
 using PortfolioBackend.Models;
 
@@ -36,5 +37,16 @@ public class ProjectController : ControllerBase
 
         return project;
     }
-
+    
+    // POST: api/projects/addProject
+    [HttpPost("addProject")]
+    public async Task<ActionResult<Project>> AddProject([FromForm] Project project)
+    {
+        _context.Projects.Add(project);
+        await _context.SaveChangesAsync();
+    
+        return CreatedAtAction(nameof(GetProject), new { id = project.Id }, project);
+    }
+    
+    
 }

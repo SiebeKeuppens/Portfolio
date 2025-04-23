@@ -8,4 +8,10 @@ public class HomeController : Controller
     {
         return View();
     }
+    
+    [HttpGet("/AdminPage")]
+    public IActionResult AdminPage()
+    {
+        return View();
+    }
 }

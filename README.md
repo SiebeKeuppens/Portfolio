@@ -1,18 +1,17 @@
 # 🚀 Personal Portfolio Website
 
-A modern, full-stack portfolio website showcasing my programming projects and skills, built with Angular and ASP.NET Core.
+A modern, full-stack portfolio website showcasing my programming projects and skills, built with Bootstrap, ASP.NET Core and passion 🔥.
 
 <img width="1802" alt="image" src="https://github.com/user-attachments/assets/d6895b30-01ae-4d0b-ba3e-e54f22d92de1" />
 
 
 ## 📋 Overview
 
-This portfolio site is a full-stack application demonstrating various technologies and best practices in web development. It features a responsive design with interactive elements, a RESTful API backend, and is designed to be self-hosted on a Raspberry Pi or similar hardware.
+This portfolio site is a full-stack application demonstrating various technologies that I have experience in in web development. It features a responsive design with interactive elements, a RESTful API backend, and is designed to be self-hosted on a Raspberry Pi or similar hardware.
 
 ## ✨ Features
 
-- **Dynamic Project Showcase**: Displays projects from a database with filtering options
-- **Interactive UI**: Includes particle effects and smooth animations
+- **Dynamic Project Showcase**: Displays projects from a database.
 - **Responsive Design**: Optimized for all device sizes
 - **RESTful API**: Built with ASP.NET Core Web API
 - **Database Integration**: Uses Entity Framework Core with SQLite
@@ -30,16 +29,6 @@ This portfolio site is a full-stack application demonstrating various technologi
 - HTML5, CSS3, JavaScript
 - Bootstrap 5
 - Particles.js for background effects
-
-
-## 📱 Responsive Design
-
-This portfolio is designed to work seamlessly across devices:
-
-- **Desktop**: Full experience with particles and animations
-- **Tablet**: Optimized layout with most visual effects
-- **Mobile**: Streamlined interface focusing on content
-
 
 ## 📄 License
 

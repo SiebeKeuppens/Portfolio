@@ -9,23 +9,29 @@
 </head>
 <body>
 <nav>
-    <p href="/">Back to Home</p>
+    <p onclick="window.location.href='/';" class="back-to-home">Back to Home</p>
 </nav>
 <section class="form-group section hero" id="welcome">
     <h1 class="text-center mb-5">Add a New Project</h1>
     <div class="row justify-content-center">
         <div class="col-lg-8 col-md-10">
-            <form id="projectForm" method="post" action="/api/projects/AddProject" onsubmit="return validatePassword(event)">
+            <form id="projectForm" method="post" action="/api/project/AddProject"
+                  onsubmit="return validatePassword(event)">
                 <!-- Project Title -->
                 <div class="mb-4 d-flex align-items-center">
                     <div class="flex-grow-1">
                         <label for="title" class="form-label">Project Title</label>
                         <div class="d-flex align-items-center">
                             <div class="form-check me-2">
-                                <input class="form-check-input d-none" type="checkbox" id="featured" name="featured">
-                                <label for="featured" class="form-check-label" title="Mark as Featured Project">
-                                    ★
-                                </label>
+                                <!-- Hide the actual checkbox but keep it in the DOM -->
+                                <input type="checkbox" id="featured" style="display:none;">
+
+                                <!-- Add the hidden field for model binding -->
+                                <input type="hidden" id="IsFeatured" name="IsFeatured" value="false">
+
+                                <!-- Make the star a clickable element -->
+                                <span id="star-icon"
+                                      style="font-size: 36px; cursor: pointer; color: #666; user-select: none;">★</span>
                             </div>
                             <input type="text" class="form-control" id="title" name="title"
                                    placeholder="Enter the project title" required>
@@ -36,34 +42,39 @@
                 <!-- Project Description -->
                 <div class="mb-4">
                     <label for="description" class="form-label">Project Description</label>
-                    <textarea class="form-control" id="description" name="description" rows="4" placeholder="Enter a detailed description of the project" required></textarea>
+                    <textarea class="form-control" id="description" name="description" rows="4"
+                              placeholder="Enter a detailed description of the project" required></textarea>
                 </div>
 
                 <div class="row">
                     <!-- Image URL -->
                     <div class="col-md-6 mb-4">
                         <label for="imageUrl" class="form-label">Image URL</label>
-                        <input type="url" class="form-control" id="imageUrl" name="imageUrl" placeholder="Paste the image URL" required>
+                        <input type="url" class="form-control" id="imageUrl" name="imageUrl"
+                               placeholder="Paste the image URL" required>
                     </div>
-                    
+
                     <!-- GitHub URL -->
                     <div class="col-md-6 mb-4">
                         <label for="gitHubUrl" class="form-label">GitHub URL</label>
-                        <input type="url" class="form-control" id="gitHubUrl" name="gitHubUrl" placeholder="Paste the GitHub URL" required>
+                        <input type="url" class="form-control" id="gitHubUrl" name="gitHubUrl"
+                               placeholder="Paste the GitHub URL" required>
                     </div>
-                    
+
                     <!-- Demo URL -->
                     <div class="col-md-6 mb-4">
                         <label for="demoUrl" class="form-label">Demo URL</label>
-                        <input type="url" class="form-control" id="demoUrl" name="demoUrl" placeholder="Paste the Demo URL" required>
+                        <input type="url" class="form-control" id="demoUrl" name="demoUrl"
+                               placeholder="Paste the Demo URL" required>
                     </div>
-                    
+
                     <!-- Completed Date with Checkbox -->
                     <div class="col-md-6 mb-4">
                         <label for="completedDate" class="form-label">Completed Date</label>
                         <div class="d-flex align-items-center">
                             <div class="form-check d-flex align-items-center me-3">
-                                <input class="form-check-input" type="checkbox" id="IsCompletedBox" onchange="toggleCompletedDate()" checked>
+                                <input class="form-check-input" type="checkbox" id="IsCompletedBox"
+                                       onchange="toggleCompletedDate()" checked>
                             </div>
                             <input type="date" class="form-control" id="completedDate" name="completedDate" required>
                         </div>
@@ -73,7 +84,8 @@
                 <!-- Technologies Used -->
                 <div class="mb-4">
                     <label for="technologiesUsed" class="form-label">Technologies Used</label>
-                    <input type="text" class="form-control" id="technologiesUsed" name="technologiesUsed" placeholder="E.g., C#, .NET, Angular" required>
+                    <input type="text" class="form-control" id="technologiesUsed" name="technologiesUsed"
+                           placeholder="E.g., C#, .NET, Angular" required>
                 </div>
 
                 <!-- Submit Button -->
@@ -93,11 +105,50 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 <script>
+    // Star functionality
+    document.addEventListener('DOMContentLoaded', function () {
+        const starIcon = document.getElementById('star-icon');
+        const isFeaturedField = document.getElementById('IsFeatured');
+        const featuredCheckbox = document.getElementById('featured');
+
+        // Initial state
+        let isStarActive = false;
+
+        // Function to update star appearance
+        function updateStar() {
+            if (isStarActive) {
+                starIcon.style.color = '#FFD700';
+                starIcon.style.textShadow = '0 0 10px #FFD700, 0 0 20px #FFD700, 0 0 30px #FFEA00';
+                isFeaturedField.value = 'true';
+                featuredCheckbox.checked = true;
+            } else {
+                starIcon.style.color = '#666';
+                starIcon.style.textShadow = 'none';
+                isFeaturedField.value = 'false';
+                featuredCheckbox.checked = false;
+            }
+
+            console.log('Star active:', isStarActive);
+            console.log('IsFeatured value:', isFeaturedField.value);
+        }
+
+        // Toggle star on click
+        starIcon.addEventListener('click', function () {
+            isStarActive = !isStarActive;
+            updateStar();
+        });
+
+        // Initialize star
+        updateStar();
+    });
+
+    // Original password validation function
     function validatePassword(event) {
         event.preventDefault();
         const password = prompt("Please enter admin password:");
 
-        if (password === "admin123") { // Replace with your actual password
+        if (password === "admin123") {
+            // Form will submit with current IsFeatured value
             document.getElementById('projectForm').submit();
             return true;
         } else {

@@ -133,19 +133,6 @@ footer {
     z-index: 2;
 }
 
-/* Featured Checkbox (Star) */
-input[type="checkbox"]#featured + .form-check-label {
-    font-size: 36px; /* Larger star size */
-    color: #666; /* Default color for the star */
-    cursor: pointer;
-    transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
-}
-
-input[type="checkbox"]#featured:checked + .form-check-label {
-    color: #FFD700; /* Bright golden color when selected */
-    text-shadow: 0 0 10px #FFD700, 0 0 20px #FFD700, 0 0 30px #FFEA00; /* Brighter, glowing effect */
-}
-
 /* Checkbox Alignment */
 #completedDate + .form-check {
     height: 100%; /* Match checkbox height to input field */
@@ -195,4 +182,128 @@ input[type="checkbox"]#featured:checked + .form-check-label {
 .hero,
 .section {
     z-index: 2;
+}
+/* All Projects page styles */
+#allprojects {
+    width: 95%;
+    padding: 60px 0;
+    border-radius: 15px;
+    margin: 100px auto 1%;
+    background: rgba(192, 197, 193, .1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transform: translateZ(0);
+    z-index: 2;
+    position: relative;
+}
+
+#allprojects .btn-group .btn {
+    color: #EEE;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-right: 5px;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+#allprojects .btn-group .btn:hover,
+#allprojects .btn-group .btn.active {
+    background-color: rgba(187, 190, 100, 0.8);
+    color: #222;
+}
+
+#allprojects .back-to-home {
+    cursor: pointer;
+    color: #BBBE64;
+    transition: color 0.2s ease;
+}
+
+#allprojects .back-to-home:hover {
+    color: #EAF0CE;
+}
+
+/* Custom styles for this page */
+#allprojects {
+    padding-top: 120px; /* Added extra padding to prevent navbar overlap */
+}
+
+/* Custom card deck for 2 cards per row */
+.projects-card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 -15px;
+}
+
+.projects-card-deck .card {
+    flex: 0 0 calc(50% - 50px); /* Two cards per row with margins */
+    max-width: calc(50% - 50px);
+    margin: 0 25px 50px;
+}
+
+@media (max-width: 992px) {
+    .projects-card-deck .card {
+        flex: 0 0 calc(100% - 50px);
+        max-width: calc(100% - 50px);
+    }
+}
+/* Add to your site.css file */  
+
+/* Specific styles for AllProjects page */
+#allprojects {
+    width: 95%;
+    padding: 60px 0;
+    border-radius: 15px;
+    margin: 120px auto 1%; /* Added extra top margin to prevent navbar overlap */
+    background: rgba(192, 197, 193, .1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transform: translateZ(0);
+    z-index: 2;
+    position: relative;
+}
+
+/* Projects grid layout - two per row */
+.projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -10px;
+}
+
+.projects-grid .card-wrapper {
+    flex: 0 0 calc(33.333% - 20px);
+    padding: 0 10px;
+    margin-bottom: 30px;
+}
+
+/* Sort buttons on AllProjects page */
+#allprojects .btn-group .btn {
+    color: #EEE;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-right: 5px;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+#allprojects .btn-group .btn:hover,
+#allprojects .btn-group .btn.active {
+    background-color: rgba(187, 190, 100, 0.8);
+    color: #222;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .projects-grid .card-wrapper {
+        flex: 0 0 calc(50% - 20px);
+    }
+}
+
+@media (max-width: 768px) {
+    .projects-grid .card-wrapper {
+        flex: 0 0 100%;
+    }
 }

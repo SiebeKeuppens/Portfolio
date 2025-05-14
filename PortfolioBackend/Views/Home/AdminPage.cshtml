@@ -15,8 +15,7 @@
     <h1 class="text-center mb-5">Add a New Project</h1>
     <div class="row justify-content-center">
         <div class="col-lg-8 col-md-10">
-            <form id="projectForm" method="post" action="/api/project/AddProject"
-                  onsubmit="return validatePassword(event)">
+            <form id="projectForm" method="post" action="/api/project/AddProject">
                 <!-- Project Title -->
                 <div class="mb-4 d-flex align-items-center">
                     <div class="flex-grow-1">
@@ -76,7 +75,7 @@
                                 <input class="form-check-input" type="checkbox" id="IsCompletedBox"
                                        onchange="toggleCompletedDate()" checked>
                             </div>
-                            <input type="date" class="form-control" id="completedDate" name="completedDate" required>
+                            <input type="date" class="form-control" id="completedDate" name="completedDate">
                         </div>
                     </div>
                 </div>
@@ -87,6 +86,11 @@
                     <input type="text" class="form-control" id="technologiesUsed" name="technologiesUsed"
                            placeholder="E.g., C#, .NET, Angular" required>
                 </div>
+
+    <div class="mb-4">
+        <label for="adminPassword" class="form-label">Admin Password</label>
+        <input type="password" class="form-control" id="adminPassword" name="adminPassword" required>
+    </div>
 
                 <!-- Submit Button -->
                 <div class="text-center mt-4">
@@ -142,12 +146,12 @@
         updateStar();
     });
 
-    // Original password validation function
+    /* Original password validation function
     function validatePassword(event) {
         event.preventDefault();
         const password = prompt("Please enter admin password:");
 
-        if (password === "admin123") {
+        if (password === Environment.GetEnvironmentVariable("ADMIN_PASSWORD")) {
             // Form will submit with current IsFeatured value
             document.getElementById('projectForm').submit();
             return true;
@@ -155,7 +159,7 @@
             alert("Incorrect password!");
             return false;
         }
-    }
+    }*/
 
     function toggleCompletedDate() {
         const completedDateInput = document.getElementById('completedDate');

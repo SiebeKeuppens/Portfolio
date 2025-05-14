@@ -28,18 +28,18 @@ public class ProjectController : ControllerBase
             switch (sortBy.ToLower())
             {
                 case "title":
-                    query = sortOrder?.ToLower() == "desc" 
+                    query = sortOrder?.ToLower() == "desc"
                         ? query.OrderByDescending(p => p.Title)
                         : query.OrderBy(p => p.Title);
                     break;
                 case "date":
-                    query = sortOrder?.ToLower() == "desc" 
+                    query = sortOrder?.ToLower() == "desc"
                         ? query.OrderByDescending(p => p.CompletedDate)
                         : query.OrderBy(p => p.CompletedDate);
                     break;
                 default:
                     // Default sort by ID if sort field is not recognized
-                    query = sortOrder?.ToLower() == "desc" 
+                    query = sortOrder?.ToLower() == "desc"
                         ? query.OrderByDescending(p => p.Id)
                         : query.OrderBy(p => p.Id);
                     break;
@@ -62,10 +62,19 @@ public class ProjectController : ControllerBase
 
     // POST: api/project/AddProject
     [HttpPost("AddProject")]
-    public async Task<ActionResult<Project>> AddProject([FromForm] Project project)
+    public async Task<ActionResult<Project>> AddProject([FromForm] Project project, [FromForm] string adminPassword)
     {
+        var realAdminPassword = Environment.GetEnvironmentVariable("ADMIN_PASSWORD");
+        if (adminPassword != realAdminPassword)
+        {
+            Console.WriteLine("Checked password " + adminPassword + " against " + realAdminPassword + " , FAILED!");
+            ;
+            return Unauthorized();
+        }
+
         _context.Projects.Add(project);
         await _context.SaveChangesAsync();
-        return CreatedAtAction(nameof(GetProject), new { id = project.Id }, project);
+        return Redirect("/AllProjects");
+        return CreatedAtAction("GetProject", new { id = project.Id }, project);
     }
 }

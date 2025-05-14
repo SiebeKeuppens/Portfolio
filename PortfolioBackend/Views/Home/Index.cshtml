@@ -18,18 +18,18 @@
     <meta name="theme-color" content="#ffffff">
 </head>
 
-<!--TODO: ADD Languages/Frameworks/Tools Section-->
 <!--TODO: Expand About Section with resume-->
-<!--TODO: ADD Admin Panel-->
-<!--TODO: Create separate pages for the navbar items to go to-->
+<!--TODO: Improve About Section with a tab of Languages, Frameworks, Tools and how well I know them represented in a visual way-->
+<!--TODO: Create contact form functionality-->
+<!--TODO: Move the admin password to an environment variable if I figure out how to do that-->
 
 <body>
 <div id="particles-js"></div>
 <nav>
     <p onclick="window.location.href='/';">Index</p>
     <p onclick="window.location.href='/AllProjects';">Projects</p>
-    <p>About</p>
-    <p>Contact</p>
+    <p onclick="window.location.href='/About';">About</p>
+    <p onclick="window.location.href='/#contact';">Contact</p>
     <p id="adminLink" style="display: none;">Admin</p>
 </nav>
 
@@ -38,7 +38,7 @@
         <h1 class="display-4">Siebe's W.I.P. Portfolio</h1>
         <p class="lead">A site to portray my programming experience and language knowledge.
             Here you will be able to find my projects such as this site and links to the code & live demo's</p>
-        <button href="/AllProjects">View Projects</button>
+        <button onclick="window.location.href='/AllProjects';">View Projects</button>
     </div>
 </section>
 
@@ -49,15 +49,12 @@
         </div>
 </section>
 
-<section id="about" class="section">
+<section id="welcome" class="hero">
     <div class="container">
         <h1 class="text-center mb-5">About Me</h1>
-        <div class="row">
-            <div class="col-lg-8 offset-lg-2">
-                <p class="lead text-center">I'm a passionate full-stack developer with experience in a lot of languages like C#, Java, HTML/CSS, Dart and frameworks such as .NET, Angular, Spring and Flutter.
+        <p class="lead text-center">I'm a passionate full-stack developer with experience in a lot of languages like C#, Java, HTML/CSS, Dart and frameworks such as .NET, Angular, Spring and Flutter.
                     This portfolio site is built using my knowledge about these technologies (Mainly C#, HTML, .NET) and hosted on my own hardware. Chances are I will update this website regularly to show off my projects and experiences, so check back soon!</p>
-            </div>
-        </div>
+        <button onclick="window.location.href='/About';">More about me</button>
     </div>
 </section>
 
@@ -90,10 +87,13 @@
         <p>© 2025 Siebe's Portfolio. All rights reserved.</p>
     </div>
 </footer>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 <script>
+    
     // Admin panel access
+    //#region
     let keys = [];
     const secretCode = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
 
@@ -109,8 +109,10 @@
             });
         }
     });
+    //#endregion
 
     // Fetch projects from API
+    //#region
     document.addEventListener('DOMContentLoaded', function () {
         fetch('/api/project')
             .then(response => response.json())
@@ -146,7 +148,10 @@
                 document.getElementById('projects-container').innerHTML = '<div class="col-12 text-center">Error loading projects</div>';
             });
     });
-
+    //#endregion
+    
+    // Particles setup
+    //#region
     particlesJS('particles-js', {
         particles: {
             number: {
@@ -217,6 +222,8 @@
         },
         retina_detect: true
     });
+    //#endregion
+    
 </script>
 </body>
 </html>
